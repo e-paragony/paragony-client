@@ -1,0 +1,43 @@
+{
+  "name": "paragony-client",
+  "version": "0.1.1",
+  "description": "Samodzielny klient CLI huba paragonów (paragony.pl / fiskator) dla integratora zewnętrznego — czysty Node stdlib, zero zależności.",
+  "type": "module",
+  "bin": {
+    "paragony-client": "bin/paragony_client.js",
+    "paragony_client": "bin/paragony_client.js"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.11.0"
+  },
+  "scripts": {
+    "start": "node bin/paragony_client.js"
+  },
+  "keywords": [
+    "paragony",
+    "fiskator",
+    "receipt",
+    "cli",
+    "webhook",
+    "intum"
+  ],
+  "author": "Intum",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paragonypl/paragony-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paragonypl/paragony-client/issues"
+  },
+  "homepage": "https://github.com/paragonypl/paragony-client#readme"
+}

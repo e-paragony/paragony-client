@@ -1,0 +1,5 @@
+node_modules/
+*.log
+.DS_Store
+.paragony_client_credentials.json
+npm-debug.log*
